@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e59e574a-ffb1-4de6-8259-f451a515ad7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LostAndFound.iml" afterDir="false" />
+    <list default="true" id="e59e574a-ffb1-4de6-8259-f451a515ad7b" name="Default Changelist" comment="ok">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +11,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1gzoSPJu54DokJYLYnRflo1QiEo" />
   <component name="ProjectViewState">
@@ -41,7 +37,33 @@
       <option name="presentableId" value="Default" />
       <updated>1599126780223</updated>
     </task>
+    <task id="LOCAL-00001" summary="ok">
+      <created>1599127376256</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599127376256</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ok">
+      <created>1599127505155</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599127505155</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ok">
+      <created>1599127572403</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599127572403</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599127199541">
@@ -52,13 +74,25 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="614" y="307" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.834@0.0.1536.834" timestamp="1599127054089" />
-    <state x="371" y="12" key="CommitChangelistDialog2" timestamp="1599127503805">
+    <state x="624" y="183" key="AndroidProcessChooserDialog" timestamp="1599127635835">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="371" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1599127503805" />
-    <state x="554" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599127100408">
+    <state x="624" y="183" key="AndroidProcessChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1599127635835" />
+    <state x="371" y="12" key="CommitChangelistDialog2" timestamp="1599127716366">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="554" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1599127100408" />
+    <state x="371" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1599127716366" />
+    <state x="168" y="120" width="1200" height="596" key="DiffContextDialog" timestamp="1599127638152">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="168" y="120" width="1200" height="596" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1599127638152" />
+    <state x="168" y="120" width="1200" height="596" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1599127638152">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="168" y="120" width="1200" height="596" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1536.834@0.0.1536.834" timestamp="1599127638152" />
+    <state x="554" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599127862883">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="554" y="335" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1599127862883" />
   </component>
 </project>
