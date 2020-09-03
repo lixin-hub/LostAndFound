@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.belost.LoginActivity"
+    tools:showIn="@layout/activity_login"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/login_shift"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:textSize="40sp"
+                android:text="登录"
+                android:layout_marginRight="10dp"
+                android:textColor="#263238"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:minEms="5"
+                android:layout_margin="10dp"
+                android:outlineAmbientShadowColor="#263238"
+                android:outlineSpotShadowColor="#b0bec5"
+                android:textColorHint="#b0bec5"
+                android:id="@+id/login_inout_userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="邮箱/手机号/学号"
+                android:layout_weight="9"/>
+            <EditText
+            android:maxLength="10"
+            android:outlineAmbientShadowColor="#263238"
+            android:outlineSpotShadowColor="#b0bec5"
+            android:textColorHint="#b0bec5"
+            android:layout_margin="10dp"
+            android:id="@+id/login_inout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="输入密码"
+            android:inputType="textPassword"
+            android:layout_weight="9"/>
+            <LinearLayout
+                android:layout_marginBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#263238"
+                    android:id="@+id/login_forget_password"
+                    android:layout_marginLeft="20dp"
+                    android:text="忘记密码？"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <TextView
+                    android:textColor="#263238"
+                    android:id="@+id/login_singup"
+                    android:layout_marginRight="20dp"
+                    android:gravity="end"
+                    android:layout_weight="1"
+                    android:text="新用户注册？"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <Button
+                android:background="#b0bec5"
+                android:textColor="#263238"
+                android:id="@+id/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="登录" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

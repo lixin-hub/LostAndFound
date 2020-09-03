@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/post_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="联系电话"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_gravity="center"
+            android:id="@+id/post_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="时间：年，月，日"
+            android:layout_margin="20dp"/>
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/post_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="丢失/发现地点"
+            android:layout_margin="20dp" />
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/post_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="252dp"
+            android:ems="10"
+            android:hint="物体描述"
+            android:inputType="textPersonName"
+            android:layout_margin="20dp" />
+
+</LinearLayout>

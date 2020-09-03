@@ -1,0 +1,80 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.belost.SignupActivity"
+    tools:showIn="@layout/activity_signup"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/signup_shift"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:textSize="40sp"
+                android:text="注册"
+                android:layout_marginRight="10dp"
+                android:textColor="#263238"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:maxLength="15"
+                android:singleLine="true"
+                android:layout_margin="10dp"
+                android:outlineAmbientShadowColor="#263238"
+                android:outlineSpotShadowColor="#b0bec5"
+                android:textColorHint="#b0bec5"
+                android:id="@+id/signup_inout_userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="邮箱/手机号/学号"
+                android:layout_weight="9"/>
+            <EditText
+                android:maxLength="10"
+                android:outlineAmbientShadowColor="#263238"
+                android:outlineSpotShadowColor="#b0bec5"
+                android:textColorHint="#b0bec5"
+                android:layout_margin="10dp"
+                android:id="@+id/signup_inout_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="输入密码"
+                android:inputType="textPassword"
+                android:layout_weight="9"/>
+            <EditText
+                android:maxLength="10"
+                android:outlineAmbientShadowColor="#263238"
+                android:outlineSpotShadowColor="#b0bec5"
+                android:textColorHint="#b0bec5"
+                android:layout_margin="10dp"
+                android:id="@+id/signup_inout_password_again"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="再次输入密码"
+                android:layout_weight="9"
+                android:inputType="textPassword" />
+               <Button
+                android:background="#b0bec5"
+                android:textColor="#263238"
+                android:id="@+id/signup_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="注册" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

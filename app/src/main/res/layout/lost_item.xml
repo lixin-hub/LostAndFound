@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+<LinearLayout
+    android:background="#EFBF47"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_margin="5dp"
+        android:src="@drawable/ic_launcher_background"
+        android:id="@+id/lost_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/lost_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="智商低"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/lost_subcribe_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2020年9月1日"
+            android:textColor="#0C0C0C"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="标签："
+                android:textColor="#000000"
+                android:textSize="10sp" />
+            <TextView
+                android:id="@+id/lost_biaoqian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="生活就是这样"
+                android:textColor="#0C0C0C"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+    <View
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+    <LinearLayout
+        android:background="#DCF4E06C"
+        android:layout_marginRight="1dp"
+        android:layout_marginLeft="1dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="丢失物品："
+                android:textColor="#000000"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/lost_name"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="若干元人民币"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="地点："
+                android:textColor="#000000"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/lost_address"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="中华人民共和国"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="时间："
+                android:textColor="#000000"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/lost_time"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="2020.9.1"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="联系电话："
+                android:textColor="#000000"
+                android:textSize="15sp" />
+            <TextView
+                android:maxLength="11"
+                android:id="@+id/lost_phone"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="125556162"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+<View
+    android:background="#000000"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    />
+    <TextView
+        android:background="#D0F3DA9A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这就是我掉的东西，大家捡到了请联系我，谢谢"
+        />
+    <ImageView
+        android:scaleType="center"
+        android:layout_marginTop="5dp"
+        android:id="@+id/lost_picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <View
+        android:layout_marginBottom="10dp"
+        android:background="#000000"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        />
+</LinearLayout>
